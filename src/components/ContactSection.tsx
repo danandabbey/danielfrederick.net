@@ -1,32 +1,22 @@
-import ContactCard from "./ContactCard";
 import '../index.css';
 
 const Contact = () => {
-
-  const cards = [
-    {
-      name: "Github",
-      destination: "http://github.com/danandabbey",
-    },
-    {
-      name: "Email",
-      destination: "mailto:contact@danielfrederick.net?subject=contact",
-    },
-  ];
-
+  
   return (
-    <div id={"contactCon"} className={'contactCon'}>
-      {cards.map((card) => {
-        return (
-          <ContactCard
-            key={card.name}
-            text={card.name}
-            destination={card.destination}
-          />
-        );
-      })}
-    </div>
-  );
+      <div>
+        <div className={'contact'}>
+          <a className={'link'} href={"http://github.com/danandabbey"} target="_blank">
+            <p>GitHub</p>
+          </a>
+        </div>
+        <div className={'contact'}>
+          <a className={'link'} href={'mailto:contact@danielfrederick.net?subject=contact'} target="_blank">
+            <p>Email</p>
+          </a>
+        </div>
+      </div>
+  )
+      ;
 };
 
 export default Contact;
