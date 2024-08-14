@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app {
+  @apply flex flex-col bg-black text-white h-screen w-screen justify-center items-center;
+}
+
+.main {
+  @apply flex flex-col w-full md:w-[75vh];
+}
+
+.intro-con {
+  @apply flex flex-col justify-center text-center;
+}
+
+.intro {
+  @apply flex p-2 text-[30px] text-center md:text-left m-0;
+}
+
+.contact-con {
+  @apply flex gap-4 justify-center flex-col md:flex-row items-center;
+}
+
+.contact {
+  @apply  flex flex-wrap m-4 items-center md:items-start;
+}
+
+.link {
+  @apply no-underline cursor-pointer;
+}
+
+.link:hover {
+  @apply font-bold;
+}
