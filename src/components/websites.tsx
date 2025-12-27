@@ -1,7 +1,7 @@
 import '../App.css'
 import Website from './website'
 
-function Websites() {
+const Websites = () => {
   return (
     <>
       <div >

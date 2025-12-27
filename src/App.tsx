@@ -2,7 +2,7 @@ import './App.css'
 import Hello from './components/hello.tsx'
 import Websites from './components/websites.tsx'
 
-function App() {
+const App = () => {
 
   return (
     <>

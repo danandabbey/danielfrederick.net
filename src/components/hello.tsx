@@ -1,6 +1,6 @@
 import '../App.css'
 
-function Hello() {
+const Hello = () => {
   return (
     <>
       <div >

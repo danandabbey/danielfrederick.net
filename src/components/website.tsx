@@ -1,6 +1,6 @@
 import '../App.css'
 
-function Website({name, url}: {name:string, url:string}) {
+const Website = ({name, url}: {name:string, url:string}) => {
   return (
     <>
       <div>
