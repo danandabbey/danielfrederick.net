@@ -11,3 +11,18 @@ a {
   text-decoration: none;
   color: #000000;
 }
+
+a:hover {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1;
+}
