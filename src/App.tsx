@@ -1,14 +1,12 @@
 import './App.css'
-import Hello from './components/hello.tsx'
-import Websites from './components/websites.tsx'
+import Contact from './components/contact.tsx'
 
 const App = () => {
 
   return (
     <>
       <div >
-        <Hello/>
-        <Websites/>
+        <Contact/>
       </div>
     </>
   )
